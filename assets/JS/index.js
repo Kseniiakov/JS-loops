@@ -12,11 +12,12 @@
 
 // 2) посчитать результат умножения чисел от 1 до 5
 
-// for (let num = 1; num <= 5; num++) {
-//   for (let factor = 1; factor <= 5; factor++) {
-//     console.log(num,'*', factor, '=', num*factor);
-//   }
-// }
+let result = 1;
+
+for (let num = 1; num <= 5; num++) {
+  result *= num;
+}
+console.log(result);
 
 // 3) вывести в консоль таблицу умножения на 7
 // пример ('7 * ' + n + ' = ' + res)
@@ -53,8 +54,8 @@
 // 6) * 2 цикла которые добавят звездочки и "\n" 
 // в переменную и составят квадрат из звездочек,
 
-let myNum = 8; 
-let result = row;
+// let myNum = 8; 
+// let result = row;
 
 // for (let num = '*'; num.length <= myNum; num += '*') {
   // for (let num = '*'; num.length <= myNum; num += '*') {
